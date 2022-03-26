@@ -1,42 +1,29 @@
 import React from "react";
+import { Card, CardGroup, ListGroup, ListGroupItem } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import CardHeader from "react-bootstrap/esm/CardHeader";
+
 
 const Table = ({coins}) => {
 
 
-
   return (
-    <table>
-        <tbody>
-      
-            <tr>
-                <th>Token</th>
-                {coins.map(token => (
-            <td key={token.name}>{token.name}</td>
-             ))}
-            </tr>
-       
+    <CardGroup className="m-5">
+        <Card>
+        <CardHeader className="text-center">Token</CardHeader>
+        {coins.map(token => (
+        <ListGroupItem key={token.name}>{token.name}</ListGroupItem> 
+ ))}
+        </Card>
 
-         <tr>
-                <th>Market Cap</th>
-            {coins.map(token => (
-            <td key={token.market_cap}>{token.market_cap}</td>
-            ))}
-         </tr>
-
-        <tr>
-            <th>Percentage</th>
-            {coins.map(token => (
-                <td key={token.id}>{token.market_cap_rank + token.atl}%</td>
-            ))}
-
-        </tr>
-        </tbody>
-        
-      </table>
-       
-       
-  
-        
+          <Card>
+          <CardHeader className="text-center">Market Cap</CardHeader>
+{coins.map(token => (
+<ListGroup.Item key={token.market_cap}>{token.market_cap.toLocaleString()} $US</ListGroup.Item>
+))}
+          </Card>
+    </CardGroup>
+    
     )
 };
 
