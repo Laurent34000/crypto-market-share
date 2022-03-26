@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import Table from './components/Table'
 import PieChart from './components/PieChart';
+import Header from './header';
 
 function App() {
 
@@ -18,8 +19,10 @@ function App() {
     }, [])
 
   return (
+    <div>
+      <Header />
+
     <div className="container">
-      <header />
       <form>
           <div className='row form-group justify-content-center'> 
           <div className="col-lg-6 d-none d-lg-block">
@@ -31,6 +34,8 @@ function App() {
           </div>
       </form>
     </div>
+    </div>
+
   );
 }
 
