@@ -17,7 +17,7 @@ const Header = () => (
       </button>
       <div className="navbar-collapse collapse">
         <div className="mr-auto navbar-nav">
-          <a href="/aprtoapy" className="nav-link">
+          <a href="/crypto-market-share" className="nav-link">
             <FontAwesomeIcon icon={faHome} /> <span> </span>
             Home
           </a>
