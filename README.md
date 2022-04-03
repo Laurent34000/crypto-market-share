@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Crypto Market Share
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Deploy](https://github.com/Laurent34000/crypto-market-share/workflows/Deploy/badge.svg?branch=master)](https://github.com/crypto-market-share/crypto-market-share/actions?query=workflow%3ADeploy)
+[![pages-build-deployment](https://github.com/Laurent34000/crypto-market-share/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Laurent34000/crypto-market-share/actions/workflows/pages/pages-build-deployment)
+
+<https://laurent34000.github.io/crypto-market-share/>
+
 
 ## Available Scripts
 
