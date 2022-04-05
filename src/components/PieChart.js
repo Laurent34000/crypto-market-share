@@ -22,7 +22,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
       datasets: [{
         label: 'My First Dataset',
         data: MarketCap,
-        backgroundColor: ['Red','Blue','Green', 'Black','Orange','Yellow','Violet','Brown','Pink','Grey'],
+        backgroundColor: ['rgb(255, 99, 132)','rgb(54, 162, 235)','hsl(194, 76%, 55%)', 'hsl(44, 76%, 55%)',' hsl(344, 76%, 55%)','hsl(14, 46%, 55%)','hsl(254, 76%, 55%)','hsl(14, 16%, 55%)','Pink','Grey'],
       }]
     };
 
