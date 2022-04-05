@@ -5,7 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Header = () => (
   <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
     <div className="container">
-      <a href="/aprtoapy" className="navbar-brand">
+      <a href="/crypto-market-share" className="navbar-brand">
         TOP 10 CRYPTO MARKET SHARE
       </a>
       <button

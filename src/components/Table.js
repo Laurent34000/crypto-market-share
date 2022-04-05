@@ -19,7 +19,7 @@ const Table = ({coins}) => {
           <Card>
           <CardHeader className="text-center">Market Cap</CardHeader>
 {coins.map(token => (
-<ListGroup.Item key={token.market_cap}>{token.market_cap.toLocaleString()} $US</ListGroup.Item>
+<ListGroup.Item key={token.market_cap}>$ {token.market_cap.toLocaleString()}</ListGroup.Item>
 ))}
           </Card>
     </CardGroup>
