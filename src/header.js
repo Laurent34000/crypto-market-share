@@ -1,39 +1,31 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Container, Nav, Navbar } from "react-bootstrap"
 
 const Header = () => (
-  <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div className="container">
-      <a href="/crypto-market-share" className="navbar-brand">
-        TOP 10 CRYPTO MARKET SHARE
-      </a>
-      <button
-        type="button"
-        aria-label="Toggle navigation"
-        className="navbar-toggler collapsed"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="navbar-collapse collapse">
-        <div className="mr-auto navbar-nav">
-          <a href="/crypto-market-share" className="nav-link">
-            <FontAwesomeIcon icon={faHome} /> <span> </span>
-            Home
-          </a>
+  <Navbar bg="dark" variant="dark" expand="sm">    
+ <Container>
+ <Navbar.Brand href="/crypto-market-share">
+ TOP 10 CRYPTO MARKET SHARE
+   </Navbar.Brand>  
+   <Navbar.Toggle />
+      <Navbar.Collapse>
+      <Nav className="mr-auto">
+        <Nav.Link href="/crypto-market-share">
+          <FontAwesomeIcon icon={faHome} /> Home
+        </Nav.Link>
+        <Nav.Link href="https://github.com/Laurent34000/crypto-market-share">
+            <FontAwesomeIcon icon={faGithub} /> About
+          </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      
+ </Container>
+ </Navbar>
+      
 
-          <a
-            href="https://github.com/Laurent34000/crypto-market-share"
-            className="nav-link"
-          >
-            <FontAwesomeIcon icon={faGithub} />
-            <span> </span>
-            About
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
+
 );
 
 export default Header;

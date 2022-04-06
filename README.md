@@ -5,7 +5,7 @@
 
 <https://laurent34000.github.io/crypto-market-share/>
 
-Another project for learning frontend technologies
+Another project for learning frontend technologies.  
 This time using an API from coingecko
 
 ## Run
