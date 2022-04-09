@@ -8,7 +8,7 @@ const Table = ({coins}) => {
 
 
   return (
-    <CardGroup className="m-5">
+    <CardGroup className="mt-5">
         <Card>
         <CardHeader className="text-center">Token</CardHeader>
         {coins.map(token => (

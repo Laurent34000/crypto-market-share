@@ -27,7 +27,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
     };
 
         return(
-          <Card className="m-5">
+          <Card className="mt-5">
             <CardHeader className="text-center">Top 10 Crypto Market Share</CardHeader>
             <div>
                 <Pie data={data} />

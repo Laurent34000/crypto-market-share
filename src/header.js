@@ -7,7 +7,7 @@ const Header = () => (
   <Navbar bg="dark" variant="dark" expand="sm">    
  <Container>
  <Navbar.Brand href="/crypto-market-share">
- TOP 10 CRYPTO MARKET SHARE
+CRYPTO MARKET SHARE
    </Navbar.Brand>  
    <Navbar.Toggle />
       <Navbar.Collapse>
