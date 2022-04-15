@@ -8,6 +8,10 @@
 Another project for learning frontend technologies.  
 This time using an API from coingecko
 
+## Screenshot
+
+<img src="https://user-images.githubusercontent.com/96012534/163610677-02a0ebcf-6f45-41c6-9253-7f275be05f26.JPG" alt="Screenshot" width="800">
+
 ## Run
 ```sh
 npm start
